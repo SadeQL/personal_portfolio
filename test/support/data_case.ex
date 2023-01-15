@@ -19,6 +19,7 @@ defmodule PersonalPortfolio.DataCase do
   using do
     quote do
       alias PersonalPortfolio.Repo
+      alias PersonalPortfolio.Factory
 
       import Ecto
       import Ecto.Changeset
